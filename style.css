@@ -1,0 +1,360 @@
+/* © RITBIK BHARTI */
+
+/* CSS FOR HOMEPAGE BACKGROUND EFFECT */
+.container {
+  width: 100%;
+  height: 100%;
+  height: 100vh;
+  overflow: hidden !important;
+  position: relative;
+  background:url(logo.png) no-repeat center;        /*///////////logo/////////*/
+  background-size: 400px 400px;
+}
+
+h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 80px;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(241,241,241);
+  margin: 0px;
+  padding: 0px;
+}
+
+h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(241,241,241);
+  margin: 0px;
+  padding: 0px;
+}
+
+/*
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  position: fixed;
+  top: -250px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 7.5px;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(241,241,241);
+  padding-left: 50px;
+  margin: 0px;
+}*/
+
+p a {
+  color: rgb(241,241,241);
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+p a:hover {
+  color: #808080;
+  text-decoration: underline;
+
+}
+
+.text {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%) !important;
+  -ms-transform: translateY(-50%) !important;
+  transform: translateY(-50%) !important;
+  z-index: 1;
+  display: block;
+}
+
+body {
+  margin: 0;
+}
+
+canvas {
+  display: block;
+  /*vertical-align: bottom;*/
+}
+
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(14,14,14);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/*  CSS FOR AUTO_TYPING */
+.pen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+
+/* CSS FOR SVG SOCIAL MEDIA ICONS */
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.ir {
+  display: block;
+  overflow: visible;
+  padding: 0 0 100%;
+  position: relative;
+  height: 0;
+  width: 100%;
+}
+
+.ir > * {
+  position: absolute;         /* size of icons setting */
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.soc {                        /* alignement of list */
+  display: block;
+  font-size: 0;
+  list-style: none;
+  text-align: center;
+  position: fixed;
+  left: 48.8%;
+  bottom: 0px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
+.soc li {
+  display: inline-block;             /* COMMENT IT TO MAKE SOCIAL BUTTONS VERTICAL */
+}
+.soc a, .soc svg {
+  display: block;
+}
+.soc a {
+  position: relative;
+  height: 46px;
+  height: 4.6rem;
+  width: 46px;
+  width: 4.6rem;
+}
+
+.icon-1:hover, .icon-2:hover, .icon-3:hover, .icon-4:hover, .icon-5:hover, .icon-6:hover, .icon-7:hover, .icon-8:hover, .icon-9:hover, .icon-10:hover, .icon-11:hover, .icon-12:hover, .icon-13:hover, .icon-14:hover, .icon-15:hover, .icon-16:hover, .icon-17:hover, .icon-18:hover, .icon-19:hover, .icon-20:hover, .icon-21:hover, .icon-22:hover, .icon-23:hover, .icon-24:hover, .icon-25:hover, .icon-26:hover, .icon-27:hover, .icon-28:hover, .icon-29:hover, .icon-30:hover, .icon-31:hover, .icon-32:hover {
+  border-radius: 100%;
+  color: #0e1a25;
+  fill: #0e1a25;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+}
+
+
+.icon-8 {
+  color: #6ed926;
+  fill: #6ed926;
+}
+.icon-8:hover {
+  background: #6ed926;
+}
+
+
+.icon-10 {
+  color: #26d926;
+  fill: #26d926;
+}
+.icon-10:hover {
+  background: #26d926;
+}
+
+.icon-11 {
+  color: #26d94a;
+  fill: #26d94a;
+}
+.icon-11:hover {
+  background: #26d94a;
+}
+
+
+.icon-13 {
+  color: #26d991;
+  fill: #26d991;
+}
+.icon-13:hover {
+  background: #26d991;
+}
+
+.icon-15 {
+  color: #26d9d9;
+  fill: #26d9d9;
+}
+.icon-15:hover {
+  background: #26d9d9;
+}
+
+.icon-17 {
+  color: #2691d9;
+  fill: #2691d9;
+}
+.icon-17:hover {
+  background: #2691d9;
+}
+
+.icon-26 {
+  color: #d926b5;
+  fill: #d926b5;
+}
+.icon-26:hover {
+  background: #d926b5;
+}
+
+.icon-31 {
+  color: #d94a26;
+  fill: #d94a26;
+}
+.icon-31:hover {
+  background: #d94a26;
+}
+
+/* //////////////////////////////// CSS FOR POPUP /////////////////////////// */
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600&subset=latin-ext");
+
+/*html, body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}*/
+
+/*@media screen and (max-width: 768px) {
+  html, body {
+    font-size: 12px;
+  }
+}*/
+
+.container2 {
+  /*background-color: #47BDFF;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.button {
+  text-decoration: none;
+  font-size: .875rem;
+  text-transform: uppercase;
+  display: inline-block;
+  border-radius: 1.5rem;
+  background-color: #fff;
+  color: #47BDFF;
+  padding: 1rem 2rem;
+  font-weight: 900;
+}
+
+.popup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+  visibility: hidden;
+  opacity: 0;
+  overflow: hidden;
+  transition: .64s ease-in-out;
+}
+.popup-inner {
+  position: relative;
+  bottom: -100vw;
+  right: -100vh;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  max-height: 600px;
+  width: 60%;
+  height: 80%;
+  background-color: #fff;
+  transform: rotate(32deg);
+  transition: .64s ease-in-out;
+}
+.popupphoto {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 40%;
+  height: 100%;
+  overflow: hidden;
+}
+.popupphoto img {
+  width: auto;
+  height: 100%;
+}
+.popuptext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  height: 100%;
+  padding: 4rem;
+}
+.popuptext h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  color: #0A0A0A;
+}
+.popuptext p {
+  font-size: .875rem;
+  color: #686868;
+  line-height: 1.5;
+}
+
+.popuptext a {
+	text-decoration: none;
+	color:  #47BDFF;
+}
+.popup:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup:target .popup-inner {
+  bottom: 0;
+  right: 0;
+  transform: rotate(0);
+}
+.closepopup {
+  position: absolute;
+  right: -1rem;
+  top: -1rem;
+  width: 3rem;
+  height: 3rem;
+  font-size: .875rem;
+  font-weight: 300;
+  border-radius: 100%;
+  background-color: #47BDFF;
+  z-index: 4;
+  color: #fff;
+  line-height: 3rem;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* ////////////////////////////// */
